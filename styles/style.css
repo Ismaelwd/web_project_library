@@ -335,9 +335,14 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #000000;
+  color: white;
 }
 
 .footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
@@ -347,9 +352,12 @@
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
+  color: #ffffff;
 }
 
 .footer__list {
@@ -360,6 +368,7 @@
 }
 
 .footer__list-item {
+  color: #ffffff;
 }
 
 .footer__column-link {
@@ -368,7 +377,10 @@
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
+  color: #ffffff;
 }
